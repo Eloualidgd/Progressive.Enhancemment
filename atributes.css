@@ -1,0 +1,101 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width:  40%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+h1 { color: #369; }
+
+.text{ color:darkblue;
+    font-family: serif;
+    word-spacing: 7px;
+    width: 50%;
+    margin:auto;
+
+}
+a {
+    color: darkgreen;
+}
+a:visited {
+    color: darkgreen;
+}
+
+body{
+    max-width:90%;
+    margin:auto;
+    background: -webkit-linear-gradient(90deg, rgb(143, 48, 85), rgb(73, 116, 159));
+    background: linear-gradient(90deg, rgb(143, 48, 85), rgb(73, 116, 159));
+    background-image: url("https://s1.1zoom.me/b4147/86/Keyboard_Toys_Macro_Closeup_Laptops_Police_520947_1366x768.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+
+}
+q{
+    font-size: 160%;
+    font-style: italic;
+    background-color:lightgrey;
+    border-left:3px dashed black;
+    padding-left: 30px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display:-webkit-inline-flex;
+
+
+
+}
+.farmer{
+    border-left: 3px dashed yellow;
+
+}
+.villager{
+    border-left: darkred;
+}
+
+.bad{
+    text-transform:capitalize ;
+    color:red ;
+}
+.good{
+    text-transform: capitalize;
+    color:green;
+}
+
+tr:nth-child(even) {
+    background-color:"#f2f2f2";
+}
+.bold{
+    font-weight: bold;
+}
+img  {
+    float: left;
+    padding-right: 20px;
+}
+.notification{
+    background:rosybrown;
+    padding:.5rem 1rem;
+    border:3px solid #DDDDCC;
+    width:250px;
+    font-weight:bold;
+    color: #333300;
+    /* rajoute le code nécessaire ici*/
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+}
+
+
+
